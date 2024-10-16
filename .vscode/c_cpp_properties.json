@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/srividyaprasad/tagslam_root/devel/include/**",
+        "/home/srividyaprasad/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/srividyaprasad/tagslam_root/src/apriltag/apriltag_mit/include/**",
+        "/home/srividyaprasad/tagslam_root/src/apriltag/apriltag_ros/include/**",
+        "/home/srividyaprasad/catkin_ws/src/beginner_tut/include/**",
+        "/home/srividyaprasad/catkin_ws/src/VINS-Fusion/camera_models/include/**",
+        "/home/srividyaprasad/tagslam_root/src/flex_sync/include/**",
+        "/home/srividyaprasad/catkin_ws/src/imu_tools/imu_complementary_filter/include/**",
+        "/home/srividyaprasad/catkin_ws/src/imu_tools/imu_filter_madgwick/include/**",
+        "/home/srividyaprasad/catkin_ws/src/imu_viz/include/**",
+        "/home/srividyaprasad/catkin_ws/src/lat_offset_odom/include/**",
+        "/home/srividyaprasad/catkin_ws/src/my_cpp_pkg/include/**",
+        "/home/srividyaprasad/catkin_ws/src/Lane_Detection_CPP_ROS/include/**",
+        "/home/srividyaprasad/catkin_ws/src/realsense_ros_gazebo/include/**",
+        "/home/srividyaprasad/catkin_ws/src/rs_ahp1/include/**",
+        "/home/srividyaprasad/tagslam_root/src/tagslam/include/**",
+        "/home/srividyaprasad/catkin_ws/src/teleop_twist_joy/include/**",
+        "/home/srividyaprasad/catkin_ws/src/tortoisebotpromax_navigation/include/**",
+        "/home/srividyaprasad/catkin_ws/src/tortoisebotpromax_slam/include/**",
+        "/home/srividyaprasad/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/srividyaprasad/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/srividyaprasad/catkin_ws/src/vanishing_point/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

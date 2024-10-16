@@ -4,6 +4,6 @@ cam0:
   distortion_model: plumb_bob
   distortion_coeffs: [0.0, 0.0, 0.0, 0.0, 0.0]
   resolution: [640, 480]
-  rostopic: /kinect_camera/rgb/image_raw
+  rostopic: /kinect_camera/rgb/image_raw/compressed
   tagtopic: /detector/tags
   rig_body: rig
