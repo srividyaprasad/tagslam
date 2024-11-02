@@ -8,8 +8,8 @@
     <param name="type"   type="int" value="1"/>
     <param name="black_border" type="int" value="$(arg
 						 black_border)"/>
-    <param name="image_transport" value="compressed"/>
-    <remap from="~image/compressed" to="/kinect_camera/rgb/image_raw/compressed"/>
+    <!-- <param name="image_transport" value="raw"/> -->
+    <remap from="~image" to="/camera/camera/color/image_raw"/> 
   </node>
 
   <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find bcr_bot_accio)/rviz/entire_setup.rviz"/>
