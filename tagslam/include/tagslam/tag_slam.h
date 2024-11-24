@@ -160,7 +160,7 @@ namespace tagslam {
     void publishOriginalTagTransforms(const ros::Time &t,tf::tfMessage *tfMsg);
     void publishCameraTransforms(const ros::Time &t, tf::tfMessage *tfMsg);
 
-    void publishTransforms(const ros::Time &t, bool orig = false);
+    void publishTransforms(const ros::Time &t, bool orig = true);
     void publishBodyOdom(const ros::Time &t);
     void sleep(double dt) const;
     void processTags(const ros::Time &t,

@@ -763,7 +763,7 @@ namespace tagslam {
       odommsgs[0]->header : origtagmsgs[0]->header;
     const ros::Time t = header.stamp;
     if (publishInitialTransforms_) {
-      publishTransforms(t, false /*dont pub orig tf */);
+      publishTransforms(t, true /*dont pub orig tf */);
       publishInitialTransforms_ = false;
     }
     std::vector<TagArrayConstPtr> tagmsgs;
@@ -831,7 +831,7 @@ namespace tagslam {
       clockMsg.clock = t;
       clockPub_.publish(clockMsg);
     }
-    publishTransforms(t, false);
+    publishTransforms(t, true);
   }
 
   void TagSlam::fakeOdom(const ros::Time &tCurr,

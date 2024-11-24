@@ -53,29 +53,27 @@ bodies:
          z: 1.0e-05
      type: simple
      tags:
-     - id: 2
-       size: 0.115
-       pose: 
-         position: 
-           x: -0.858911811128475
-           y:  -0.0011623348927043593
-           z:  1.9177264139852543
-         rotation:  
-           x: 3.1334651
-           y: 0.0117556
-           z: 0.1447151
+     - id: 3
+       size: 0.11500000
+       pose:
+         position:
+           x: 4.611
+           y: -0.837
+           z: 0.361
+         rotation:
+           x: 1.3102423
+           y: -1.1787309
+           z: -1.1982141
          position_noise:
-           x: 0.00010000
-           y: 0.00010000
-           z: 0.00010000
+           x: 0.01
+           y: 0
+           z: 0
          rotation_noise:
-           x: 0.00001000
-           y: 0.00001000
-           z: 0.00001000
+           x: 0.01
+           y: 0
+           z: 0
 
-     # orientation:         x: 0.9989253837069975        y: 0.0037475948228121443       z: 0.046134106269270815   w: 0.0023827625999199215
-
- - rig:
+ - base_link:
      is_static: false
      type: simple
      odom_frame_id: base_link
