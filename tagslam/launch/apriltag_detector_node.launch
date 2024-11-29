@@ -1,7 +1,7 @@
 <launch>
-    <arg name="black_border" default="0"/>
+  <arg name="black_border" default="0"/>
 
-  <node pkg="tagslam_apriltag_ros" type="apriltag_detector_node"
+  <node pkg="apriltag_ros" type="apriltag_detector_node"
 	name="detector" output="screen">
     <param name="refine" type="bool" value="true"/>
     <param name="family" type="int" value="0"/>
